@@ -1,0 +1,38 @@
+[
+  {
+    "arguments": [
+      "/usr/local/bin/arm-none-eabi-gcc",
+      "-c",
+      "-mcpu=cortex-m4",
+      "-mthumb",
+      "-DSTM32F401xC",
+      "-Iinclude",
+      "-g",
+      "-Wall",
+      "-o",
+      "build/main.o",
+      "src/main.c"
+    ],
+    "directory": "/home/kleist/Documentos/teste_f4",
+    "file": "/home/kleist/Documentos/teste_f4/src/main.c",
+    "output": "/home/kleist/Documentos/teste_f4/build/main.o"
+  },
+  {
+    "arguments": [
+      "/usr/local/bin/arm-none-eabi-gcc",
+      "-c",
+      "-mcpu=cortex-m4",
+      "-mthumb",
+      "-DSTM32F401xC",
+      "-Iinclude",
+      "-g",
+      "-Wall",
+      "-o",
+      "build/startup.o",
+      "src/startup.c"
+    ],
+    "directory": "/home/kleist/Documentos/teste_f4",
+    "file": "/home/kleist/Documentos/teste_f4/src/startup.c",
+    "output": "/home/kleist/Documentos/teste_f4/build/startup.o"
+  }
+]
